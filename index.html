@@ -21,29 +21,33 @@
             background-color: #fafafa;
         }
 
-        form label {
-            display: block;
-            font-size: 18px;
-            margin-bottom: 10px;
+        form {
+            width: 500px;
         }
 
-        form input[type="text"] {
-            display: block;
+        form input {
+
             width: 200px;
-            height: 25px;
             line-height: 25px;
             font-size: 18px;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 15px;
+            padding: 15px;
+            background-color: #e8e8e8;
+            box-shadow: 6px 6px 12px #ffffff,
+                -6px -6px 12px #c5c5c5;
+            font-size: medium;
+            font-weight: bold;
+            max-width: 200px;
         }
 
         form input[type="button"] {
-            width: 70%;
-            height: 30px;
+            width: 100px;
             margin-left: 30px;
-            background-color: #1ecbaf;
-            color: #fff;
-            border: none;
             transition: all .3s ease;
+            box-shadow: 3px 3px 6px #ffffff,
+                -3px -3px 6px #c5c5c5;
         }
 
         form input[type="button"]:hover {
@@ -55,8 +59,7 @@
 
 <body>
     <form action="">
-        <label for="userName">请输入姓名:</label>
-        <input type="text" id="userName">
+        <input type="text" id="userName" placeholder="请输入姓名">
         <input type="button" value="进校" onclick="gotoIndex()">
     </form>
     <script>
