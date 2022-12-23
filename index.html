@@ -22,11 +22,14 @@
         }
 
         form {
-            width: 500px;
+            width: 200px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around
         }
 
         form input {
-
+            /* display: block; */
             width: 200px;
             line-height: 25px;
             font-size: 18px;
@@ -44,15 +47,20 @@
 
         form input[type="button"] {
             width: 100px;
-            margin-left: 30px;
             transition: all .3s ease;
             box-shadow: 3px 3px 6px #ffffff,
                 -3px -3px 6px #c5c5c5;
+
         }
 
         form input[type="button"]:hover {
             background-color: #fff;
             color: #1ecbaf;
+        }
+
+        p {
+            font-size: 14px;
+            color: #c5c5c5;
         }
     </style>
 </head>
@@ -62,6 +70,8 @@
         <input type="text" id="userName" placeholder="请输入姓名">
         <input type="button" value="进校" onclick="gotoIndex()">
     </form>
+    <p>本程序仅作为js跨页面传值学习交流使用.</p>
+    <p>如作他用所承受的法律责任一概与作者无关</p>
     <script>
         function gotoIndex() {
             var username = document.getElementById('userName').value;
