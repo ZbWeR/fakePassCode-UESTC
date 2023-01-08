@@ -1,6 +1,6 @@
 <h1 align="center">⭐  FakePassCode UESTC ⭐</h1>
 
-GitPage访问链接: [zbwer.github.io/fakePassCode-UESTC](https://zbwer.github.io/fakePassCode-UESTC/)
+GitPage访问链接: [zbwer.github.io/fakePassCode-UESTC](https://fakepasscode-uestc.pages.dev/)
 
 ## 📜 使用须知
 
